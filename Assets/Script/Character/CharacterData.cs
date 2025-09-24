@@ -3,11 +3,15 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Characters/CharactersData")]
 public class UnitData : ScriptableObject
 {
-    public string TanCong;
-    public string Mau;
-    public string Speed;
+    public int Ten;
+    public int Class;
 
-    public int Armor;
+    public int TanCong;
+    public int Mau;
+    public int Speed;
+
+    public int Giap;
+    public int TinhThan;
 
     
 }
