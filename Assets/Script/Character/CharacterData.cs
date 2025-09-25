@@ -3,8 +3,9 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Characters/CharactersData")]
 public class UnitData : ScriptableObject
 {
-    public int Ten;
-    public int Class;
+
+    public string Ten;
+    public string Class;
 
     public int TanCong;
     public int Mau;
@@ -13,5 +14,4 @@ public class UnitData : ScriptableObject
     public int Giap;
     public int TinhThan;
 
-    
 }

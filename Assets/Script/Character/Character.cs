@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class Character
+public class Character: MonoBehaviour
 {
 
     public UnitData CharactersData;
-    public int Ten;
-    public int Class;
+    public string Ten;
+    public string Class;
 
     public int TanCong;
     public int Mau;
